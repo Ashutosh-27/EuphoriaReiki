@@ -19,54 +19,62 @@ const HomeCarousel = () => {
                 touchDrag
                 autoWidth
                 autoplay
-                autoplayTimeout={4000}
+                autoplayTimeout={3000}
                 autoplayHoverPause
                 autoplaySpeed={1000}
                 center
             >
-                <div className="section5_card">
-                    <p>
-                        1. Reiki does not have to be a stand-alone treatment. The beauty of reiki is that it can also be used:
-                    </p>
+                <div className="testimonial_card">
+                    <div className="card_img">
+                        <img src='./user.png' alt='user' />
+                    </div>
+                    <div className="card_body">
+                        <div className="username">Nami</div>
+                        <div className="review">
+                            <p>I believe if I can work through the heavy energy that there will be clarity about everything else. When I left you I saw light everywhere, my attention was drawn to trees.</p>
+                        </div>
+                        <div className="fonts_icos">
+                            <i className="bi bi-facebook"></i>
+                            <i className="bi bi-instagram"></i>
+                            <i className="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="testimonial_card">
+                    <div className="card_img">
+                        <img src='./user.png' alt='user' />
+                    </div>
+                    <div className="card_body">
+                        <div className="username">Nami</div>
+                        <div className="review">
+                            <p>I believe if I can work through the heavy energy that there will be clarity about everything else. When I left you I saw light everywhere, my attention was drawn to trees.</p>
+                        </div>
+                        <div className="fonts_icos">
+                            <i className="bi bi-facebook"></i>
+                            <i className="bi bi-instagram"></i>
+                            <i className="bi bi-twitter"></i>
+                        </div>
+                    </div>
                 </div>
 
 
-                <div className="section5_card">
-                    <p>
-                        2. When you are not ill but want a relaxing treatment; As a relaxation treatment
-                    </p>
+                <div className="testimonial_card">
+                    <div className="card_img">
+                        <img src='./user.png' alt='user' />
+                    </div>
+                    <div className="card_body">
+                        <div className="username">Nami</div>
+                        <div className="review">
+                            <p>I believe if I can work through the heavy energy that there will be clarity about everything else. When I left you I saw light everywhere, my attention was drawn to trees.</p>
+                        </div>
+                        <div className="fonts_icos">
+                            <i className="bi bi-facebook"></i>
+                            <i className="bi bi-instagram"></i>
+                            <i className="bi bi-twitter"></i>
+                        </div>
+                    </div>
                 </div>
-
-                <div className="section5_card">
-                    <p>
-                        3. When you just want a pick me up or to boost your energy levels; Boost Energy Levels
-                    </p>
-                </div>
-
-                <div className="section5_card">
-                    <p>
-                        4. When you just want a pick me up or to boost your energy levels; Boost Energy Levels
-                        When you are on medication; While on medication
-
-                    </p>
-                </div>
-
-                <div className="section5_card">
-                    <p>
-                        5. When you are going for surgery (before, during and after) Before ,During and After Surgery. When you are in hospital; When you are hospitalized
-
-                    </p>
-                </div>
-
-                <div className="section5_card">
-                    <p>
-                        6. When you are pregnant or trying to become pregnant; or
-                        with other complimentary therapies. Trying to conceive or with any alignment or with any  other complementary therapies
-                    </p>
-                </div>
-
-
-
 
 
 
